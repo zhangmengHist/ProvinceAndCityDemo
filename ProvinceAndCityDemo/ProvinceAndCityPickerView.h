@@ -12,7 +12,7 @@ typedef void(^CompleteAnimationBlock)(BOOL Complete);
 
 
 @interface ProvinceAndCityPickerView : UIView
-@property (nonatomic,strong)SelecetdString selectedCityStr;
+@property (nonatomic,copy)SelecetdString selectedCityStr;
 
 - (instancetype) initWithCancelStr:(NSString *)str OtherButtonTitles:(NSString *)Titles AttachTitle:(NSString *)AttachTitle;
 
